@@ -1,0 +1,7 @@
+{
+    "name" : "vidley - dev",
+    "database": {
+        "dbName" : "vidley",
+        "port": "27107"
+    }
+}
