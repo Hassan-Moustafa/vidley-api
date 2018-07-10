@@ -1,4 +1,5 @@
-const config = require('config');
+
+const config = require('config'); //external package
 const morgan = require('morgan');
 const express = require('express');
 const courses = require('./routers/genres');
