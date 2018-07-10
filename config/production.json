@@ -2,6 +2,6 @@
     "name" : "vidley - prod",
     "database": {
         "dbName" : "vidley",
-        "port": "27107"
+        "port": "27017"
     }
 }

@@ -1,14 +1,14 @@
-
-
 const mongoose = require('mongoose');
 
 const genreSchema = new mongoose.Schema({
     name:{
         type: String,
-        required: true
+        required: true,
+        minlength: 3,
+        ComeFromReq: 'MUST'
     }
 });
 
-const genreModel = new mongoose.model('genre' , genreSchema);
+const genreModel =  mongoose.model('genre' , genreSchema);
 
 module.exports = genreModel;

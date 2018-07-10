@@ -1,4 +1,4 @@
-
+const mongoose = require('./db/dbConfig');
 const config = require('config'); //external package
 const morgan = require('morgan');
 const express = require('express');
